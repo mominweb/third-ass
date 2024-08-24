@@ -1,0 +1,25 @@
+.manrope {
+    font-family: "Manrope", sans-serif;
+      
+}
+.navbar-end button {
+    background-color: rgba(171, 239, 95, 1);
+    color: black;
+    font-weight:800;
+    font-size:20px;
+  width: 212px;
+    height: 56px;
+    border-radius: 32px;
+}
+.bgcustom{
+  background-color: rgba(164, 218, 195, 1);
+}
+.bgcustomblue{
+  background-color: rgba(119, 170, 234, 1);
+}
+.bgcutomred{
+  background-color: rgba(231, 193, 211, 1);
+}
+.bgyellow{background-color: rgba(239, 218, 110, 1);
+
+}
