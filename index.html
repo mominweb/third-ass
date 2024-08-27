@@ -55,32 +55,37 @@
 
   <div class="navbar  ">
     <div class="navbar-start">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h8m-8 6h16" />
-          </svg>
-        </div>
-        <ul
-          tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-          <li><a></a></li>
-          
-          <li><a></a></li>
-        </ul>
-      </div>
+      
       <a class="btn btn-ghost text-xl font-extrabold"> <i class="fa-solid fa-arrow-right inline-block transform -rotate-45 bg-[rgba(171,239,95,1)] rounded-full p-1 text-slate-600 "></i>
          Rinterio</a>
+         <div class="dropdown pl-20 ml-40 ">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow
+             ">
+            <li><a></a></li>
+            
+            <li><a></a></li>
+          </ul>
+        </div>
+         
     </div>
+
+    
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
         <li><a class="font-extrabold">Home</a></li>
@@ -97,10 +102,10 @@
     <div>
       
     </div>
-    <div class="navbar-end flex space-x-4">
+    <div class="navbar-end flex space-x-4 hidden md:inline-flex ">
       <i class="fa-solid fa-magnifying-glass inline-block  bg-white text-slate-400 rounded-full p-2"></i>
       <i class="fa-solid fa-cart-shopping inline-block bg-white text-slate-400 rounded-full p-2"></i>
-      <button> Book Consults <i class="fa-solid fa-arrow-right inline-block 
+      <button class=" "> Book Consults <i class="fa-solid fa-arrow-right inline-block 
         transform -rotate-45 bg-black 
          rounded-full p-1 text-lime-300"></i> </button>
     </div>
@@ -108,6 +113,11 @@
 
 
 </div>
+
+
+
+
+
 <div class="hero bg- min-h-screen">
   <div class="hero-content flex-col ">
     <img
@@ -296,6 +306,32 @@
 
 
         </div>
+<!-- challenge part -->
+<div class="">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+        <!-- Mission Section -->
+        <section class="flex flex-col items-center shadow-md">
+          <img src="assets/vision.jpg" alt="Mission Image" class=" h- object-cover mb-4 rounded-lg shadow-md">
+          <h2 class="text-3xl font-semibold mb-4">Our Mission</h2>
+          <p class="text-lg leading-relaxed">
+            Our mission is to design and build homes that are not only aesthetically pleasing but also environmentally sustainable. We believe in creating spaces that inspire and reflect the unique personalities of our clients. Every project is an opportunity to innovate and push the boundaries of design.
+          </p>
+        </section>
+
+    <!-- Vision Section -->
+    <section class="flex flex-col items-center shadow-md ">
+      <img src="assets/mission.jpg" alt="Vision Image" class="object-cover mb-4 rounded-lg shadow-md">
+      <h2 class="text-3xl font-semibold mb-4">Our Vision</h2>
+      <p class="text-lg leading-relaxed">
+        Our vision is to be a leading force in the architecture and design industry, known for our commitment to quality, sustainability, and innovation. We aspire to build homes that stand the test of time and contribute positively to the communities we serve.
+      </p>
+    </section>
+  </div>
+
+
+
+
 
         <!-- dicuss next -->
 
@@ -315,6 +351,12 @@
                
              </div>
 
+
+
+
+
+
+             
 
               <form  class="p-4  ml- mr-  w-full max-w-3xl mx-auto ">
                 <!-- First Row: First Name and Last Name -->
@@ -359,6 +401,10 @@
 
 
         </div>
+
+
+</div>
+
 
        
     
